@@ -87,7 +87,7 @@ const Demo = () => {
 			title="Submit"
             className="submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700 transition"
           >
-            <p>↵</p>
+            <p>AI</p>
           </button>
         </form>
 
