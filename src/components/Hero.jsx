@@ -8,7 +8,7 @@ const Hero = () => {
            
         <button 
           type="button"
-          onClick={() => window.open('https://github.com/yashdarji30')}
+          onClick={() => window.open('https://github.com/yashdarji30',"_blank")}
           className="black_btn"
           >
             GitHub
@@ -22,6 +22,9 @@ const Hero = () => {
         simplify your reading with Summize, an open-source article summarizer transforms lengthy articles into clear and concise summaries
 
       </h2>
+      <p className="text-sm text-center text-slate-600 mt-2" >
+        (Process can take up to 30 seconds depending on the length of the article. Please be patient.)
+      </p>
 
     </header>
   )
