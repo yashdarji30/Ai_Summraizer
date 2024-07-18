@@ -109,6 +109,22 @@ const Demo = () => {
               <p className="flex-1 font-satoshi text-blue-700 font-medium text-sm truncate">
                 {item.url}
               </p>
+              <button
+                type="button"
+                onClick={() => {
+                  const filteredLinks = allArticles.filter(
+                    (link) => link.url !== item.url
+                  );
+                  setAllArticles(filteredLinks);
+                  localStorage.setItem(
+                    "articles",
+                    JSON.stringify(filteredLinks)
+                  );
+                }}
+                className="text-red-500 hover:text-red-600"
+              >
+                ❌
+              </button>
             </div>
           ))}
         </div>
