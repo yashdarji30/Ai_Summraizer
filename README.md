@@ -24,7 +24,6 @@ If you're getting started and need assistance or face any bugs, join our active 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
 - React.js
-- TypeScript
 - Redux Toolkit
 - Tailwind CSS
 
